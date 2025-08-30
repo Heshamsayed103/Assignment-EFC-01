@@ -1,10 +1,12 @@
-﻿namespace Assignment__EFC_01
+﻿using System;
+
+namespace Assignment__EFC_01
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello, World!");
+            AppDbContext Context = new AppDbContext();
         }
     }
 }
